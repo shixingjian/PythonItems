@@ -1,0 +1,131 @@
+{
+  "uid" : "cbb8dd355d30a8a9",
+  "name" : "新增课程用例",
+  "fullName" : "test_lesson.TestLesson#test_add_lesson",
+  "historyId" : "20e357dd453966afee0ef11aa2d6e6bc",
+  "time" : {
+    "start" : 1594377615057,
+    "stop" : 1594377615061,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1594377614660,
+      "stop" : 1594377614951,
+      "duration" : 291
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "delete_all_lesson",
+    "time" : {
+      "start" : 1594377613806,
+      "stop" : 1594377614660,
+      "duration" : 854
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1594377615933,
+      "stop" : 1594377615933,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "delete_all_lesson::fin",
+    "time" : {
+      "start" : 1594377615936,
+      "stop" : 1594377616624,
+      "duration" : 688
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "新增课程"
+  }, {
+    "name" : "feature",
+    "value" : "课程模块"
+  }, {
+    "name" : "tag",
+    "value" : "lesson_add"
+  }, {
+    "name" : "tag",
+    "value" : "Lesson(order=2)"
+  }, {
+    "name" : "suite",
+    "value" : "test_lesson"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLesson"
+  }, {
+    "name" : "host",
+    "value" : "jkdev"
+  }, {
+    "name" : "thread",
+    "value" : "2160-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_lesson"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expreValue",
+    "value" : "'{\"code\":2}'"
+  }, {
+    "name" : "inData",
+    "value" : "'{\n  \"name\":\"\",\n  \"desc\":\"大学英语课程\",\n  \"display_idx\":\"4\"\n}\n'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "lesson_add", "Lesson(order=2)" ]
+  },
+  "source" : "cbb8dd355d30a8a9.json",
+  "parameterValues" : [ "'{\"code\":2}'", "'{\n  \"name\":\"\",\n  \"desc\":\"大学英语课程\",\n  \"display_idx\":\"4\"\n}\n'" ]
+}

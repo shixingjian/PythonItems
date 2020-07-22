@@ -1,0 +1,21 @@
+-
+ url: /api/mgr/loginReq
+ method: POST
+ datail: 正确账号，正确密码
+ data:
+    username: "auto"
+    password: 'sdfsdfsdf'
+ check:
+    retcode: 0
+    reason: ''
+
+-
+  url: /api/mgr/loginReq
+  method: POST
+  datail: 正确账号，正确密码
+  data:
+     username: "auto"
+     password: 'sdfsdfsdf'
+  check:
+     retcode: 0
+     reason: ''

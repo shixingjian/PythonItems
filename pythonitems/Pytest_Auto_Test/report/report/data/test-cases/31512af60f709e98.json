@@ -1,0 +1,102 @@
+{
+  "uid" : "31512af60f709e98",
+  "name" : "test_login_image",
+  "fullName" : "test_login#test_login_image",
+  "historyId" : "58dbfb4b93482729745a1fddc395380b",
+  "time" : {
+    "start" : 1594377617868,
+    "stop" : 1594377617871,
+    "duration" : 3
+  },
+  "description" : "截图效果",
+  "descriptionHtml" : "<p>截图效果</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "delete_all_lesson",
+    "time" : {
+      "start" : 1594377616631,
+      "stop" : 1594377617169,
+      "duration" : 538
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "截图效果",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9707d5254617b4b9",
+      "name" : "这是附件截图名字",
+      "source" : "9707d5254617b4b9.jpg",
+      "type" : "image/jpg",
+      "size" : 25773
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "delete_all_lesson::fin",
+    "time" : {
+      "start" : 1594377617872,
+      "stop" : 1594377618139,
+      "duration" : 267
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录界面"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "jkdev"
+  }, {
+    "name" : "thread",
+    "value" : "2160-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "31512af60f709e98.json",
+  "parameterValues" : [ ]
+}

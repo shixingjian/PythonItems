@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 1 == 2",
+      "children" : [ {
+        "name" : "列出课程用例",
+        "uid" : "b89613317ee85bb9",
+        "parentUid" : "d89f5ad50f342bab320c0753c9baac45",
+        "status" : "failed",
+        "time" : {
+          "start" : 1594377615578,
+          "stop" : 1594377615584,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"code\":2}'", "'{\n  \"name\":\"大学英语\",\n  \"desc\":\"大学英语课程\",\n  \"display_idx\":\",\"\n}\n'" ]
+      } ],
+      "uid" : "d89f5ad50f342bab320c0753c9baac45"
+    }, {
+      "name" : "AssertionError: assert 0 == 2",
+      "children" : [ {
+        "name" : "删除课程用例",
+        "uid" : "f2b48f3358432ecc",
+        "parentUid" : "97c418fc19b873723e78392ef7f8a96c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1594377615915,
+          "stop" : 1594377615923,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"code\":2}'", "'{\"action\":\"delete_course\",\"id\":\"123321\"}'" ]
+      } ],
+      "uid" : "97c418fc19b873723e78392ef7f8a96c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

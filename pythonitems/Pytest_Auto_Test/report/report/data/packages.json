@@ -1,0 +1,663 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_lesson",
+    "children" : [ {
+      "name" : "新增课程用例",
+      "uid" : "39ca4a38633b894a",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377614952,
+        "stop" : 1594377615000,
+        "duration" : 48
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":0}'", "'{\n  \"name\":\"大学英语\",\n  \"desc\":\"大学英语课程\",\n  \"display_idx\":\"4\"\n}\n'" ]
+    }, {
+      "name" : "新增课程用例",
+      "uid" : "a3e40516b127d904",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615008,
+        "stop" : 1594377615050,
+        "duration" : 42
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\n  \"name\":\"大学英语\",\n  \"desc\":\"大学英语课程\",\n  \"display_idx\":\"4\"\n}\n'" ]
+    }, {
+      "name" : "新增课程用例",
+      "uid" : "cbb8dd355d30a8a9",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615057,
+        "stop" : 1594377615061,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\n  \"name\":\"\",\n  \"desc\":\"大学英语课程\",\n  \"display_idx\":\"4\"\n}\n'" ]
+    }, {
+      "name" : "新增课程用例",
+      "uid" : "8e9bc681d9c5886e",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615070,
+        "stop" : 1594377615075,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\n  \"name\":\"大学语文{{courseName}}\",\n  \"desc\":\"大学英语课程\",\n  \"display_idx\":\"\"\n}\n'" ]
+    }, {
+      "name" : "新增课程用例",
+      "uid" : "575d2df028279d8e",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615083,
+        "stop" : 1594377615121,
+        "duration" : 38
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":0}'", "'{\n  \"name\":\"大学英语大学英语大学英语大学英语大学英语\",\n  \"desc\":\"大学英语课程\",\n  \"display_idx\":\"4\"\n}\n'" ]
+    }, {
+      "name" : "新增课程用例",
+      "uid" : "9cac798cbf8153dc",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615128,
+        "stop" : 1594377615134,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\n  \"name\":\"我大学英语大学英语大学英语大学英语大学英语\",\n  \"desc\":\"大学英语课程\",\n  \"display_idx\":\"4\"\n}\n'" ]
+    }, {
+      "name" : "新增课程用例",
+      "uid" : "a14acae16fc7452e",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615141,
+        "stop" : 1594377615183,
+        "duration" : 42
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":0}'", "'{\n  \"name\":\"大学英语大学英语大学\",\n  \"desc\":\"大学英语课程\",\n  \"display_idx\":\"4\"\n}\n'" ]
+    }, {
+      "name" : "新增课程用例",
+      "uid" : "d62885b293585635",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615190,
+        "stop" : 1594377615232,
+        "duration" : 42
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":0}'", "'{\n  \"name\":\"大\",\n  \"desc\":\"大学英语课程\",\n  \"display_idx\":\"4\"\n}\n'" ]
+    }, {
+      "name" : "新增课程用例",
+      "uid" : "292d89e629e70b9e",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615243,
+        "stop" : 1594377615294,
+        "duration" : 51
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":0}'", "'{\n  \"name\":\"大学英语{{courseName}}\",\n  \"desc\":\"大学英语课程\",\n  \"display_idx\":\"999\"\n}\n'" ]
+    }, {
+      "name" : "新增课程用例",
+      "uid" : "ab64dcd00bd99e1e",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615302,
+        "stop" : 1594377615308,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\n  \"name\":\"大学英语{{courseName}}\",\n  \"desc\":\"大学英语课程\",\n  \"display_idx\":\"1000\"\n}\n'" ]
+    }, {
+      "name" : "新增课程用例",
+      "uid" : "1fa62c7df7cc9f1",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615315,
+        "stop" : 1594377615353,
+        "duration" : 38
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":0}'", "'{\n  \"name\":\"大学英语{{courseName}}\",\n  \"desc\":\"大学英语课程\",\n  \"display_idx\":\"500\"\n}\n'" ]
+    }, {
+      "name" : "新增课程用例",
+      "uid" : "ff0d3ef78c659509",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615360,
+        "stop" : 1594377615404,
+        "duration" : 44
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":0}'", "'{\n  \"name\":\"大学英语{{courseName}}\",\n  \"desc\":\"大学英语课程\",\n  \"display_idx\":\"0\"\n}\n'" ]
+    }, {
+      "name" : "新增课程用例",
+      "uid" : "70eddcd141df7ead",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615412,
+        "stop" : 1594377615417,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\n  \"name\":\"大学英语{{courseName}}\",\n  \"desc\":\"大学英语课程\",\n  \"display_idx\":\"-1\"\n}\n'" ]
+    }, {
+      "name" : "新增课程用例",
+      "uid" : "59b98cbe219e6a68",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615424,
+        "stop" : 1594377615430,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\n  \"name\":\"大学英语{{courseName}}\",\n  \"desc\":\"大学英语课程\",\n  \"display_idx\":\"33.3\"\n}\n'" ]
+    }, {
+      "name" : "新增课程用例",
+      "uid" : "524504de53b63fac",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615437,
+        "stop" : 1594377615443,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\n  \"name\":\"大学$英语\",\n  \"desc\":\"大学英语课程\",\n  \"display_idx\":\"4\"\n}\n'" ]
+    }, {
+      "name" : "新增课程用例",
+      "uid" : "75cbe22fd5aa2c19",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615451,
+        "stop" : 1594377615458,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\n  \"name\":\"大学*英语\",\n  \"desc\":\"大学英语课程\",\n  \"display_idx\":\"4\"\n}\n'" ]
+    }, {
+      "name" : "新增课程用例",
+      "uid" : "6d19b256402822da",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615465,
+        "stop" : 1594377615472,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\n  \"name\":\"大学&英语\",\n  \"desc\":\"大学英语课程\",\n  \"display_idx\":\"4\"\n}\n'" ]
+    }, {
+      "name" : "新增课程用例",
+      "uid" : "8b6ef7e8667c6303",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615479,
+        "stop" : 1594377615485,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\n  \"name\":\"大学。英语\",\n  \"desc\":\"大学英语课程\",\n  \"display_idx\":\"4\"\n}\n'" ]
+    }, {
+      "name" : "新增课程用例",
+      "uid" : "36c3606995cc0363",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615493,
+        "stop" : 1594377615498,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\n  \"name\":\"大学：英语\",\n  \"desc\":\"大学英语课程\",\n  \"display_idx\":\"4\"\n}\n'" ]
+    }, {
+      "name" : "新增课程用例",
+      "uid" : "f3f8dac5999cd14b",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615506,
+        "stop" : 1594377615512,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\n  \"name\":\" 大学英语\",\n  \"desc\":\"大学英语课程\",\n  \"display_idx\":\"4\"\n}\n'" ]
+    }, {
+      "name" : "新增课程用例",
+      "uid" : "6089316845d8830f",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615520,
+        "stop" : 1594377615525,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\n  \"name\":\"大学英语 \",\n  \"desc\":\"大学英语课程\",\n  \"display_idx\":\"4\"\n}\n'" ]
+    }, {
+      "name" : "新增课程用例",
+      "uid" : "83e96a0c1aebb16",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615533,
+        "stop" : 1594377615542,
+        "duration" : 9
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\n  \"name\":\"大学 英语\",\n  \"desc\":\"大学英语课程\",\n  \"display_idx\":\"4\"\n}\n'" ]
+    }, {
+      "name" : "新增课程用例",
+      "uid" : "11ca997ec75a6387",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615552,
+        "stop" : 1594377615557,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\n  \"name\":\"大学英语\",\n  \"desc\":\"大学英语课程\",\n  \"display_idx\":\"ab\"\n}\n'" ]
+    }, {
+      "name" : "新增课程用例",
+      "uid" : "dfb6bfba65e0bfdf",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615564,
+        "stop" : 1594377615570,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\n  \"name\":\"大学英语\",\n  \"desc\":\"大学英语课程\",\n  \"display_idx\":\"a4\"\n}\n'" ]
+    }, {
+      "name" : "列出课程用例",
+      "uid" : "b89613317ee85bb9",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1594377615578,
+        "stop" : 1594377615584,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\n  \"name\":\"大学英语\",\n  \"desc\":\"大学英语课程\",\n  \"display_idx\":\",\"\n}\n'" ]
+    }, {
+      "name" : "列出课程用例",
+      "uid" : "aac9c2322aedf4fd",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615652,
+        "stop" : 1594377615660,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":0}'", "'{\"action\":\"list_course\",\"pagenum\":\"1\",\"pagesize\":\"20\"}'" ]
+    }, {
+      "name" : "列出课程用例",
+      "uid" : "b7f73948d54f225b",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615668,
+        "stop" : 1594377615673,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\"action\":\"list_course\",\"pagenum\":\"\",\"pagesize\":\"20\"}'" ]
+    }, {
+      "name" : "列出课程用例",
+      "uid" : "a25f0370b9841b2b",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615681,
+        "stop" : 1594377615686,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\"action\":\"list_course\",\"pagenum\":\"1\",\"pagesize\":\"\"}'" ]
+    }, {
+      "name" : "列出课程用例",
+      "uid" : "bbc8a8669600048f",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615694,
+        "stop" : 1594377615699,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\"action\":\"list_course\",\"pagenum\":\"0\",\"pagesize\":\"20\"}'" ]
+    }, {
+      "name" : "列出课程用例",
+      "uid" : "6f35e21d30092ece",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615707,
+        "stop" : 1594377615711,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\"action\":\"list_course\",\"pagenum\":\"-1\",\"pagesize\":\"20\"}'" ]
+    }, {
+      "name" : "列出课程用例",
+      "uid" : "175aa37031e3480",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615719,
+        "stop" : 1594377615724,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\"action\":\"list_course\",\"pagenum\":\"a\",\"pagesize\":\"20\"}'" ]
+    }, {
+      "name" : "列出课程用例",
+      "uid" : "2d098b62fafa9f8c",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615732,
+        "stop" : 1594377615739,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\"action\":\"list_course\",\"pagenum\":\"1000\",\"pagesize\":\"20\"}'" ]
+    }, {
+      "name" : "列出课程用例",
+      "uid" : "b241d8d7b24c357",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615747,
+        "stop" : 1594377615752,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\"action\":\"list_course\",\"pagenum\":\"1\",\"pagesize\":\"0\"}'" ]
+    }, {
+      "name" : "列出课程用例",
+      "uid" : "25d04e1c8b8277c7",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615760,
+        "stop" : 1594377615768,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":0}'", "'{\"action\":\"list_course\",\"pagenum\":\"1\",\"pagesize\":\"1\"}'" ]
+    }, {
+      "name" : "列出课程用例",
+      "uid" : "c9c570a407d15be8",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615776,
+        "stop" : 1594377615784,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":0}'", "'{\"action\":\"list_course\",\"pagenum\":\"1\",\"pagesize\":\"500\"}'" ]
+    }, {
+      "name" : "列出课程用例",
+      "uid" : "1d3958660212b2f6",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615795,
+        "stop" : 1594377615803,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":0}'", "'{\"action\":\"list_course\",\"pagenum\":\"1\",\"pagesize\":\"1000\"}'" ]
+    }, {
+      "name" : "列出课程用例",
+      "uid" : "801158a6ba1f1d8d",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615812,
+        "stop" : 1594377615818,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\"action\":\"list_course\",\"pagenum\":\"1\",\"pagesize\":\"1001\"}'" ]
+    }, {
+      "name" : "删除课程用例",
+      "uid" : "a51bf2e0624c0927",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615826,
+        "stop" : 1594377615831,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\"action\":\"delete_course\",\"id\":\"\"}'" ]
+    }, {
+      "name" : "删除课程用例",
+      "uid" : "8f3a5a9dad10ba7f",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615838,
+        "stop" : 1594377615844,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\"action\":\"delete_course\",\"id\":\" \"}'" ]
+    }, {
+      "name" : "删除课程用例",
+      "uid" : "cb0b29ef96cd0a9f",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615852,
+        "stop" : 1594377615856,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\"action\":\"delete_course\",\"id\":\"#\"}'" ]
+    }, {
+      "name" : "删除课程用例",
+      "uid" : "a0a111bd592799d6",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615864,
+        "stop" : 1594377615869,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\"action\":\"delete_course\",\"id\":\"%\"}'" ]
+    }, {
+      "name" : "删除课程用例",
+      "uid" : "4fde950669703a33",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615876,
+        "stop" : 1594377615882,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\"action\":\"delete_course\",\"id\":\"-\"}'" ]
+    }, {
+      "name" : "删除课程用例",
+      "uid" : "7a7e2ebb5c4e2b68",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615889,
+        "stop" : 1594377615894,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\"action\":\"delete_course\",\"id\":\"好\"}'" ]
+    }, {
+      "name" : "删除课程用例",
+      "uid" : "a54fcdbd9517fd3c",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377615902,
+        "stop" : 1594377615907,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\"action\":\"delete_course\",\"id\":\"122abc\"}'" ]
+    }, {
+      "name" : "删除课程用例",
+      "uid" : "f2b48f3358432ecc",
+      "parentUid" : "95d6e590ef304fed0fdc9611f700621d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1594377615915,
+        "stop" : 1594377615923,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"code\":2}'", "'{\"action\":\"delete_course\",\"id\":\"123321\"}'" ]
+    } ],
+    "uid" : "95d6e590ef304fed0fdc9611f700621d"
+  }, {
+    "name" : "test_login",
+    "children" : [ {
+      "name" : "登录接口用例",
+      "uid" : "a49e4305f4fe3d55",
+      "parentUid" : "03f1661ca992eb99488d3d9f2a012d80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377617170,
+        "stop" : 1594377617447,
+        "duration" : 277
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"retcode\": 0}'", "'{\"username\": \"auto\",\"password\": \"sdfsdfsdf\"}'" ]
+    }, {
+      "name" : "登录接口用例",
+      "uid" : "8c53034bb4112ce2",
+      "parentUid" : "03f1661ca992eb99488d3d9f2a012d80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377617455,
+        "stop" : 1594377617588,
+        "duration" : 133
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\n\"retcode\": 1,\n\"reason\": \"用户或者密码错误\"\n}'", "'{\"username\": \"\",\"password\": \"sdfsdfsdf\"}'" ]
+    }, {
+      "name" : "登录接口用例",
+      "uid" : "b4764242cc0fb8ea",
+      "parentUid" : "03f1661ca992eb99488d3d9f2a012d80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377617596,
+        "stop" : 1594377617725,
+        "duration" : 129
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\n\"retcode\": 1,\n\"reason\": \"用户或者密码错误\"\n}'", "'{\"username\": \"auto\",\"password\": \"\"}'" ]
+    }, {
+      "name" : "登录接口用例",
+      "uid" : "35deb19b72879208",
+      "parentUid" : "03f1661ca992eb99488d3d9f2a012d80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377617733,
+        "stop" : 1594377617860,
+        "duration" : 127
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\n\"retcode\": 1,\n\"reason\": \"用户或者密码错误\"\n}'", "'{\"username\": \"\",\"password\": \"\"}'" ]
+    }, {
+      "name" : "test_login_image",
+      "uid" : "31512af60f709e98",
+      "parentUid" : "03f1661ca992eb99488d3d9f2a012d80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594377617868,
+        "stop" : 1594377617871,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "03f1661ca992eb99488d3d9f2a012d80"
+  } ]
+}

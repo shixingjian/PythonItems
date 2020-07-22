@@ -1,0 +1,16 @@
+[ {
+  "values" : [ "Api_Teach" ],
+  "name" : "Stand"
+}, {
+  "values" : [ "127.0.0.1:80/login" ],
+  "name" : "ApiUrl"
+}, {
+  "values" : [ "3.6.5" ],
+  "name" : "python.Version"
+}, {
+  "values" : [ "77.0.1" ],
+  "name" : "Brower.Version"
+}, {
+  "values" : [ "Firefox" ],
+  "name" : "Brower"
+} ]

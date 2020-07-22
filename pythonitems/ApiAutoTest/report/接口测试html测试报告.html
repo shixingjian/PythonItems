@@ -1,0 +1,1942 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>HtmlTestRunner测试报告</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.2"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+<style type="text/css" media="screen">
+body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; }
+table       { font-size: 100%; }
+pre         { }
+
+/* -- heading ---------------------------------------------------------------------- */
+h1 {
+	font-size: 16pt;
+	/*color: gray;*/
+}
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+}
+
+.heading .attribute {
+    margin-top: 1ex;
+    margin-bottom: 0;
+}
+
+.heading .description {
+    margin-top: 4ex;
+    margin-bottom: 6ex;
+}
+
+/* -- css div popup ------------------------------------------------------------------------ */
+a.popup_link {
+}
+
+a.popup_link:hover {
+    color: red;
+}
+
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    padding: 10px;
+    /*background-color: #E6E6D6; */
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 8pt;
+    width: 500px;
+}
+
+}
+/* -- report ------------------------------------------------------------------------ */
+#show_detail_line {
+    margin-top: 3ex;
+    margin-bottom: 1ex;
+}
+#result_table {
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid #777;
+}
+#header_row {
+    font-weight: bold;
+    font-size:16px;
+    color: #000000;
+    text-align:center;
+    background-color: #feeeed;
+    height:40px;
+}
+#result_table td {
+    border: 1px solid #d94848;
+    padding: 2px;
+}
+#total_row  { font-weight: bold; height:30px; }
+.passClass  { background-color: #a1faa1; height:30px;}
+.failClass  { background-color: #fac3c3; height:30px;}
+.errorClass { background-color: #faeba1; height:30px;}
+.passCase   { color: #a1faa1; }
+.failCase   { color: #fac3c3; font-weight: bold; }
+.errorCase  { color: #faeba1; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+
+#add by  songqin  fcl  2019-11-26
+
+ 
+
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+button, select {
+    text-transform: none;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+} 
+
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #597ef7;
+    border-color: #597ef7;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #597ef7;
+    border-color: #597ef7;
+}
+
+.btn-primary2 {
+    color: #fff;
+    background-color: #1890ff;
+    border-color: #1890ff;
+}
+.btn-primary2:hover {
+    color: #fff;
+    background-color: #1890ff;
+    border-color: #1890ff;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+.btn-success:hover {
+    color: #fff;
+    background-color: #449d44;
+    border-color: #398439;
+}
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+
+.btn_small {
+    display: inline-block;
+    padding: 4px 8px;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.22857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+} 
+a{ text-decoration:none} 
+
+
+/* -- ending ---------------------------------------------------------------------- */
+#ending {
+}
+
+</style>
+
+</head>
+<body>
+<script language="javascript" type="text/javascript"><!--
+output_list = Array();
+
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+
+
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+
+/* obsoleted by detail in <div>
+function showOutput(id, name) {
+    var w = window.open("", //url
+                    name,
+                    "resizable,scrollbars,status,width=800,height=450");
+    d = w.document;
+    d.write("<pre>");
+    d.write(html_escape(output_list[id]));
+    d.write("\n");
+    d.write("<a href='javascript:window.close()'>close</a>\n");
+    d.write("</pre>\n");
+    d.close();
+}
+*/
+--></script>
+
+<div class='heading'>
+<h1>HtmlTestRunner测试报告</h1>
+<p class='attribute'><strong>测试人员:</strong> shixingjian</p>
+<p class='attribute'><strong>开始时间:</strong> 2020-07-07 17:03:03</p>
+<p class='attribute'><strong>合计耗时:</strong> 0:00:01.751424</p>
+<p class='attribute'><strong>测试结果:</strong> 通过 37 失败 11</p>
+
+<p class='description'>接口自动化测试</p>
+</div>
+
+
+
+<p id='show_detail_line'>
+
+
+<button class="btn btn-primary" onclick="#" type="button" >概要(77.08%)</button>
+
+<button class="btn btn-success" onclick="showCase(0)" type="button" >通过(37)</button>
+
+<button class="btn btn-danger" onclick="showCase(1)" type="button" >失败(11)</button>
+
+<button class="btn btn-primary2" onclick="showCase(2)" type="button" >所有(48)</button>
+
+<!--
+<a href='javascript:showCase(0)'>通过(37)</a>
+<a href='javascript:showCase(1)'>失败(11)</a>
+<a href='javascript:showCase(2)'>所有(48)</a>
+
+-->
+</p>
+<table id='result_table'>
+<colgroup>
+<col align='left' />
+<col align='center' />
+<col align='center' />
+<col align='center' />
+<col align='center' />
+<col align='center' />
+</colgroup>
+<tr id='header_row'>
+    <td>用例集/测试用例</td>
+    <td>总计</td>
+    <td>通过</td>
+    <td>失败</td>
+    <td>错误</td>
+    <td>详细</td>
+</tr>
+
+<tr class='failClass'>
+    <td>demo.other.demo_unittest3.UnittestDemo3</td>
+    <td>48</td>
+    <td>37</td>
+    <td>11</td>
+    <td>0</td>
+    <td>
+     <!--
+        <button onclick="showClassDetail('c1',48)" class="btn btn-success" type="button" 
+            >收起</button>
+       -->
+        <a href="javascript:showClassDetail('c1',48)">&nbsp;&nbsp;收起</a>
+        
+    </td>
+</tr>
+
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_002</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.1')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.1: &gt;&gt;&gt;用例2运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_003</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.2')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.2: &gt;&gt;&gt;用例3运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_004</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.3')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.3')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.3: &gt;&gt;&gt;用例4运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.4' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_01___add0001____新增课程_2001____所有字段正常填写_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________n___name___大学英语___n___desc___大学英语课程___n___display_idx___4__n__n____请求成功并返回相应的信息______code__0_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.4')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.4')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.4: {'retcode': 0, 'id': 259}
+
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.5' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_02___add0002____新增课程_2002____填写内容和上一条一样_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________n___name___大学英语___n___desc___大学英语课程___n___display_idx___4__n__n____请求失败报相应的错误代码______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.5')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.5')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.5: {'retcode': 2, 'reason': '同名课程存在'}
+同名课程存在
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.6' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_03___add0003____新增课程_2003____不填写课程名_其他正常填写_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________n___name______n___desc___大学英语课程___n___display_idx___4__n__n____请求失败报相应的错误代码______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.6')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.6')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.6' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.6').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.6: {'retcode': 2, 'reason': '课程名为空！'}
+课程名为空！
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.7' class='none'>
+    <td class='failCase'><div class='testcase'>test_005_04___add0004____新增课程_2004____不填写展示次序_其他正常填写_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________n___name___大学语文__courseName_____n___desc___大学英语课程___n___display_idx_____n__n____请求失败报相应的错误代码______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.7')" >
+        失败</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_ft1.7')" 
+        type="button" >失败&bull;</button> 
+
+    <div id='div_ft1.7' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.7').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.7: {'retcode': 999, 'reason': '程序异常'}
+程序异常
+Traceback (most recent call last):
+  File "F:\python3.6.5\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "F:\pythonitems\ApiAutoTest\demo\other\demo_unittest3.py", line 61, in test_005
+    self.assertEqual(test['code'],dictBoby['retcode'],retreason)
+AssertionError: 2 != 999 : 程序异常
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.8' class='none'>
+    <td class='failCase'><div class='testcase'>test_005_05___add0005____新增课程_2005____课程名填写20个汉字_其他正常填写_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________n___name___大学英语大学英语大学英语大学英语大学英语___n___desc___大学英语课程___n___display_idx___4__n__n____请求失败报相应的错误代码______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.8')" >
+        失败</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_ft1.8')" 
+        type="button" >失败&bull;</button> 
+
+    <div id='div_ft1.8' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.8').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.8: {'retcode': 0, 'id': 261}
+
+Traceback (most recent call last):
+  File "F:\python3.6.5\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "F:\pythonitems\ApiAutoTest\demo\other\demo_unittest3.py", line 61, in test_005
+    self.assertEqual(test['code'],dictBoby['retcode'],retreason)
+AssertionError: 2 != 0 : 
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.9' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_06___add0006____新增课程_2006____课程名填写21个汉字_其他正常填写_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________n___name___我大学英语大学英语大学英语大学英语大学英语___n___desc___大学英语课程___n___display_idx___4__n__n____请求失败报相应的错误代码______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.9')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.9')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.9' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.9').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.9: {'retcode': 2, 'reason': '课程名长度大于20！'}
+课程名长度大于20！
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.10' class='none'>
+    <td class='failCase'><div class='testcase'>test_005_07___add0007____新增课程_2007____课程名填写10字以内_其他正常填写_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________n___name___大学英语大学英语大学___n___desc___大学英语课程___n___display_idx___4__n__n____请求失败报相应的错误代码______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.10')" >
+        失败</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_ft1.10')" 
+        type="button" >失败&bull;</button> 
+
+    <div id='div_ft1.10' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.10').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.10: {'retcode': 0, 'id': 262}
+
+Traceback (most recent call last):
+  File "F:\python3.6.5\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "F:\pythonitems\ApiAutoTest\demo\other\demo_unittest3.py", line 61, in test_005
+    self.assertEqual(test['code'],dictBoby['retcode'],retreason)
+AssertionError: 2 != 0 : 
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.11' class='none'>
+    <td class='failCase'><div class='testcase'>test_005_08___add0008____新增课程_2008____课程名填写1个汉字_其他正常填写_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________n___name___大___n___desc___大学英语课程___n___display_idx___4__n__n____请求失败报相应的错误代码______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.11')" >
+        失败</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_ft1.11')" 
+        type="button" >失败&bull;</button> 
+
+    <div id='div_ft1.11' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.11').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.11: {'retcode': 0, 'id': 263}
+
+Traceback (most recent call last):
+  File "F:\python3.6.5\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "F:\pythonitems\ApiAutoTest\demo\other\demo_unittest3.py", line 61, in test_005
+    self.assertEqual(test['code'],dictBoby['retcode'],retreason)
+AssertionError: 2 != 0 : 
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.12' class='none'>
+    <td class='failCase'><div class='testcase'>test_005_09___add0009____新增课程_2009____展示次序填写999_其他正常填写_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________n___name___大学英语__courseName_____n___desc___大学英语课程___n___display_idx___999__n__n____请求失败报相应的错误代码______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.12')" >
+        失败</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_ft1.12')" 
+        type="button" >失败&bull;</button> 
+
+    <div id='div_ft1.12' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.12').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.12: {'retcode': 0, 'id': 264}
+
+Traceback (most recent call last):
+  File "F:\python3.6.5\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "F:\pythonitems\ApiAutoTest\demo\other\demo_unittest3.py", line 61, in test_005
+    self.assertEqual(test['code'],dictBoby['retcode'],retreason)
+AssertionError: 2 != 0 : 
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.13' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_10___add0010____新增课程_2010____展示次序填写1000_其他正常填写_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________n___name___大学英语__courseName_____n___desc___大学英语课程___n___display_idx___1000__n__n____请求失败报相应的错误代码______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.13')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.13')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.13' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.13').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.13: {'retcode': 2, 'reason': '展示次序必须小于1000！'}
+展示次序必须小于1000！
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.14' class='none'>
+    <td class='failCase'><div class='testcase'>test_005_11___add0011____新增课程_2011____展示次序填写500_其他正常填写_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________n___name___大学英语__courseName_____n___desc___大学英语课程___n___display_idx___500__n__n____请求失败报相应的错误代码______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.14')" >
+        失败</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_ft1.14')" 
+        type="button" >失败&bull;</button> 
+
+    <div id='div_ft1.14' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.14').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.14: {'retcode': 0, 'id': 265}
+
+Traceback (most recent call last):
+  File "F:\python3.6.5\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "F:\pythonitems\ApiAutoTest\demo\other\demo_unittest3.py", line 61, in test_005
+    self.assertEqual(test['code'],dictBoby['retcode'],retreason)
+AssertionError: 2 != 0 : 
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.15' class='none'>
+    <td class='failCase'><div class='testcase'>test_005_12___add0012____新增课程_2012____展示次序填写0_其他正常填写_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________n___name___大学英语__courseName_____n___desc___大学英语课程___n___display_idx___0__n__n____请求失败报相应的错误代码______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.15')" >
+        失败</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_ft1.15')" 
+        type="button" >失败&bull;</button> 
+
+    <div id='div_ft1.15' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.15').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.15: {'retcode': 0, 'id': 266}
+
+Traceback (most recent call last):
+  File "F:\python3.6.5\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "F:\pythonitems\ApiAutoTest\demo\other\demo_unittest3.py", line 61, in test_005
+    self.assertEqual(test['code'],dictBoby['retcode'],retreason)
+AssertionError: 2 != 0 : 
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.16' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_13___add0013____新增课程_2013____展示次序为_1_其他正常填写_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________n___name___大学英语__courseName_____n___desc___大学英语课程___n___display_idx____1__n__n____请求失败报相应的错误代码______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.16')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.16')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.16' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.16').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.16: {'retcode': 2, 'reason': '展示次序必须为整形数字！'}
+展示次序必须为整形数字！
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.17' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_14___add0014____新增课程_2014____展示次序为33_3_其他正常填写_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________n___name___大学英语__courseName_____n___desc___大学英语课程___n___display_idx___33_3__n__n____请求失败报相应的错误代码______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.17')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.17')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.17' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.17').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.17: {'retcode': 2, 'reason': '展示次序必须为整形数字！'}
+展示次序必须为整形数字！
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.18' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_15___add0015____新增课程_2015____课程名带有特殊字符__其他正常填写_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________n___name___大学_英语___n___desc___大学英语课程___n___display_idx___4__n__n____请求失败报相应的错误代码______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.18')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.18')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.18' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.18').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.18: {'retcode': 2, 'reason': '课程名包含特殊字符！'}
+课程名包含特殊字符！
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.19' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_16___add0016____新增课程_2016____课程名带有特殊字符__其他正常填写_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________n___name___大学_英语___n___desc___大学英语课程___n___display_idx___4__n__n____请求失败报相应的错误代码______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.19')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.19')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.19' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.19').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.19: {'retcode': 2, 'reason': '课程名包含特殊字符！'}
+课程名包含特殊字符！
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.20' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_17___add0017____新增课程_2017____课程名带有特殊字符__其他正常填写_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________n___name___大学_英语___n___desc___大学英语课程___n___display_idx___4__n__n____请求失败报相应的错误代码______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.20')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.20')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.20' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.20').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.20: {'retcode': 2, 'reason': '课程名包含特殊字符！'}
+课程名包含特殊字符！
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.21' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_18___add0018____新增课程_2018____课程名带有标点符号__其他正常填写_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________n___name___大学_英语___n___desc___大学英语课程___n___display_idx___4__n__n____请求失败报相应的错误代码______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.21')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.21')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.21' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.21').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.21: {'retcode': 2, 'reason': '课程名包含特殊字符！'}
+课程名包含特殊字符！
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.22' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_19___add0019____新增课程_2019____课程名带有标点符号__其他正常填写_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________n___name___大学_英语___n___desc___大学英语课程___n___display_idx___4__n__n____请求失败报相应的错误代码______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.22')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.22')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.22' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.22').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.22: {'retcode': 2, 'reason': '课程名包含特殊字符！'}
+课程名包含特殊字符！
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.23' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_20___add0020____新增课程_2020____课程名前面有空格_其他正常填写_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________n___name____大学英语___n___desc___大学英语课程___n___display_idx___4__n__n____请求失败报相应的错误代码______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.23')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.23')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.23' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.23').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.23: {'retcode': 2, 'reason': '课程名包含特殊字符！'}
+课程名包含特殊字符！
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.24' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_21___add0021____新增课程_2021____课程名后面有空格_其他正常填写_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________n___name___大学英语____n___desc___大学英语课程___n___display_idx___4__n__n____请求失败报相应的错误代码______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.24')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.24')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.24' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.24').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.24: {'retcode': 2, 'reason': '课程名包含特殊字符！'}
+课程名包含特殊字符！
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.25' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_22___add0022____新增课程_2022____课程名中间有空格_其他正常填写_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________n___name___大学_英语___n___desc___大学英语课程___n___display_idx___4__n__n____请求失败报相应的错误代码______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.25')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.25')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.25' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.25').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.25: {'retcode': 2, 'reason': '课程名包含特殊字符！'}
+课程名包含特殊字符！
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.26' class='none'>
+    <td class='failCase'><div class='testcase'>test_005_23___add0023____新增课程_2023____展示次序填字母_其他正常填写_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________n___name___大学英语___n___desc___大学英语课程___n___display_idx___ab__n__n____请求失败报相应的错误代码______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.26')" >
+        失败</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_ft1.26')" 
+        type="button" >失败&bull;</button> 
+
+    <div id='div_ft1.26' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.26').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.26: {'retcode': 999, 'reason': '程序异常'}
+程序异常
+Traceback (most recent call last):
+  File "F:\python3.6.5\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "F:\pythonitems\ApiAutoTest\demo\other\demo_unittest3.py", line 61, in test_005
+    self.assertEqual(test['code'],dictBoby['retcode'],retreason)
+AssertionError: 2 != 999 : 程序异常
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.27' class='none'>
+    <td class='failCase'><div class='testcase'>test_005_24___add0024____新增课程_2024____展示次序填字母_数字_其他正常填写_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________n___name___大学英语___n___desc___大学英语课程___n___display_idx___a4__n__n____请求失败报相应的错误代码______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.27')" >
+        失败</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_ft1.27')" 
+        type="button" >失败&bull;</button> 
+
+    <div id='div_ft1.27' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.27').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.27: {'retcode': 999, 'reason': '程序异常'}
+程序异常
+Traceback (most recent call last):
+  File "F:\python3.6.5\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "F:\pythonitems\ApiAutoTest\demo\other\demo_unittest3.py", line 61, in test_005
+    self.assertEqual(test['code'],dictBoby['retcode'],retreason)
+AssertionError: 2 != 999 : 程序异常
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.28' class='none'>
+    <td class='failCase'><div class='testcase'>test_005_25___add0025____新增课程_2025____展示次序填标点符号逗号_其他正常填写_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________n___name___大学英语___n___desc___大学英语课程___n___display_idx______n__n____请求失败报相应的错误代码______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.28')" >
+        失败</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_ft1.28')" 
+        type="button" >失败&bull;</button> 
+
+    <div id='div_ft1.28' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.28').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.28: {'retcode': 999, 'reason': '程序异常'}
+程序异常
+Traceback (most recent call last):
+  File "F:\python3.6.5\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "F:\pythonitems\ApiAutoTest\demo\other\demo_unittest3.py", line 61, in test_005
+    self.assertEqual(test['code'],dictBoby['retcode'],retreason)
+AssertionError: 2 != 999 : 程序异常
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.29' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_26___list0001____列出课程_3001____页码为1_显示条数为20______api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________action___list_course___pagenum___1___pagesize___20______正确_返回成功______code__0_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.29')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.29')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.29' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.29').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.29: {'retcode': 0, 'retlist': [{'id': 266, 'name': '大学英语15941125839532', 'desc': '大学英语课程', 'display_idx': 0}, {'id': 259, 'name': '大学英语', 'desc': '大学英语课程', 'display_idx': 4}, {'id': 261, 'name': '大学英语大学英语大学英语大学英语大学英语', 'desc': '大学英语课程', 'display_idx': 4}, {'id': 262, 'name': '大学英语大学英语大学', 'desc': '大学英语课程', 'display_idx': 4}, {'id': 263, 'name': '大', 'desc': '大学英语课程', 'display_idx': 4}, {'id': 265, 'name': '大学英语15941125838940', 'desc': '大学英语课程', 'display_idx': 500}, {'id': 264, 'name': '大学英语15941125838310', 'desc': '大学英语课程', 'display_idx': 999}], 'total': 7}
+
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.30' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_27___list0002____列出课程_3002____页码为空_显示条数正常填写______api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________action___list_course___pagenum______pagesize___20______报错_页码不能为空______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.30')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.30')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.30' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.30').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.30: {'retcode': 2, 'reason': '页码或者每页显示数据条数错误'}
+页码或者每页显示数据条数错误
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.31' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_28___list0003____列出课程_3003____页码为1_显示条数为空______api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________action___list_course___pagenum___1___pagesize_________报错_显示条数不能为空______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.31')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.31')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.31' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.31').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.31: {'retcode': 2, 'reason': '页码或者每页显示数据条数错误'}
+页码或者每页显示数据条数错误
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.32' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_29___list0004____列出课程_3004____页码为0_显示条数为20______api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________action___list_course___pagenum___0___pagesize___20______报错_页码必须大于0______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.32')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.32')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.32' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.32').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.32: {'retcode': 2, 'reason': '页码或者每页显示数据条数错误'}
+页码或者每页显示数据条数错误
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.33' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_30___list0005____列出课程_3005____页码为_1_显示条数为20______api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________action___list_course___pagenum____1___pagesize___20______报错_页码必须大于0______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.33')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.33')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.33' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.33').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.33: {'retcode': 2, 'reason': '页码必须为数字'}
+页码必须为数字
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.34' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_31___list0006____列出课程_3006____页码为字母_显示条数为20______api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________action___list_course___pagenum___a___pagesize___20______报错_页码必须大于0______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.34')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.34')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.34' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.34').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.34: {'retcode': 2, 'reason': '页码或者每页显示数据条数错误'}
+页码或者每页显示数据条数错误
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.35' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_32___list0007____列出课程_3007____页码为很大的数_显示条数为20______api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________action___list_course___pagenum___1000___pagesize___20______报错_页码超过显示范围______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.35')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.35')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.35' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.35').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.35: {'retcode': 2, 'reason': '页码或者每页显示数据条数错误'}
+页码或者每页显示数据条数错误
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.36' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_33___list0008____列出课程_3008____页码为1_显示条数0______api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________action___list_course___pagenum___1___pagesize___0______报错_显示条数必须大于0______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.36')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.36')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.36' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.36').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.36: {'retcode': 2, 'reason': '每页显示条数必须大于0'}
+每页显示条数必须大于0
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.37' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_34___list0009____列出课程_3009____页码为1_显示条数1______api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________action___list_course___pagenum___1___pagesize___1______正确_返回成功______code__0_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.37')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.37')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.37' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.37').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.37: {'retcode': 0, 'retlist': [{'id': 266, 'name': '大学英语15941125839532', 'desc': '大学英语课程', 'display_idx': 0}], 'total': 7}
+
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.38' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_35___list0010____列出课程_3010____页码为1_显示条数500______api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________action___list_course___pagenum___1___pagesize___500______正确_返回成功______code__0_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.38')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.38')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.38' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.38').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.38: {'retcode': 0, 'retlist': [{'id': 266, 'name': '大学英语15941125839532', 'desc': '大学英语课程', 'display_idx': 0}, {'id': 259, 'name': '大学英语', 'desc': '大学英语课程', 'display_idx': 4}, {'id': 261, 'name': '大学英语大学英语大学英语大学英语大学英语', 'desc': '大学英语课程', 'display_idx': 4}, {'id': 262, 'name': '大学英语大学英语大学', 'desc': '大学英语课程', 'display_idx': 4}, {'id': 263, 'name': '大', 'desc': '大学英语课程', 'display_idx': 4}, {'id': 265, 'name': '大学英语15941125838940', 'desc': '大学英语课程', 'display_idx': 500}, {'id': 264, 'name': '大学英语15941125838310', 'desc': '大学英语课程', 'display_idx': 999}], 'total': 7}
+
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.39' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_36___list0011____列出课程_3011____页码为1_显示条数1000______api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________action___list_course___pagenum___1___pagesize___1000______正确_返回成功______code__0_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.39')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.39')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.39' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.39').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.39: {'retcode': 0, 'retlist': [{'id': 266, 'name': '大学英语15941125839532', 'desc': '大学英语课程', 'display_idx': 0}, {'id': 259, 'name': '大学英语', 'desc': '大学英语课程', 'display_idx': 4}, {'id': 261, 'name': '大学英语大学英语大学英语大学英语大学英语', 'desc': '大学英语课程', 'display_idx': 4}, {'id': 262, 'name': '大学英语大学英语大学', 'desc': '大学英语课程', 'display_idx': 4}, {'id': 263, 'name': '大', 'desc': '大学英语课程', 'display_idx': 4}, {'id': 265, 'name': '大学英语15941125838940', 'desc': '大学英语课程', 'display_idx': 500}, {'id': 264, 'name': '大学英语15941125838310', 'desc': '大学英语课程', 'display_idx': 999}], 'total': 7}
+
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.40' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_37___list0012____列出课程_3012____页码为1_显示条数1001______api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________action___list_course___pagenum___1___pagesize___1001______报错_显示条数必须大于0______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.40')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.40')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.40' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.40').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.40: {'retcode': 2, 'reason': '每页显示条数不能大于1000'}
+每页显示条数不能大于1000
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.41' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_38___delete0001____删除课程_4001____删除的课程ID为空_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________action___delete_course___id_________报错_课程Id不合法或不存在______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.41')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.41')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.41' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.41').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.41: {'retcode': 2, 'reason': '传入的id必须为整数'}
+传入的id必须为整数
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.42' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_39___delete0002____删除课程_4002____删除的课程ID为空格_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________action___delete_course___id__________报错_课程Id不合法或不存在______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.42')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.42')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.42' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.42').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.42: {'retcode': 2, 'reason': '传入的id必须为整数'}
+传入的id必须为整数
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.43' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_40___delete0003____删除课程_4003____删除的课程ID有特殊字符______api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________action___delete_course___id__________报错_课程Id不合法或不存在______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.43')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.43')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.43' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.43').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.43: {'retcode': 2, 'reason': '传入的id必须为整数'}
+传入的id必须为整数
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.44' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_41___delete0004____删除课程_4004____删除的课程ID有特殊字符______api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________action___delete_course___id__________报错_课程Id不合法或不存在______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.44')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.44')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.44' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.44').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.44: {'retcode': 2, 'reason': '传入的id必须为整数'}
+传入的id必须为整数
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.45' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_42___delete0005____删除课程_4005____删除的课程ID有特殊字符______api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________action___delete_course___id__________报错_课程Id不合法或不存在______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.45')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.45')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.45' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.45').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.45: {'retcode': 2, 'reason': '传入的id必须为整数'}
+传入的id必须为整数
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.46' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_43___delete0006____删除课程_4006____删除的课程ID为中文_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________action___delete_course___id___好______报错_课程Id不合法或不存在______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.46')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.46')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.46' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.46').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.46: {'retcode': 2, 'reason': '传入的id必须为整数'}
+传入的id必须为整数
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.47' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_005_44___delete0007____删除课程_4007____删除的课程ID为任意数字和字母_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________action___delete_course___id___122abc______报错_课程Id不合法或不存在______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.47')" >
+        通过</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_pt1.47')" 
+        type="button" >通过&bull;</button> 
+
+    <div id='div_pt1.47' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.47').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.47: {'retcode': 2, 'reason': '传入的id必须为整数'}
+传入的id必须为整数
+&gt;&gt;&gt;用例5运行了
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.48' class='none'>
+    <td class='failCase'><div class='testcase'>test_005_45___delete0008____删除课程_4008____删除的课程ID为任意数字_____api_mgr_sq_mgr_____POST______Content_Type___application_x_www_form_urlencoded________action___delete_course___id___123321______报错_课程Id不合法或不存在______code__2_______</div></td>
+    <td colspan='5' align='center'>
+
+    <!-- css div popup start -->
+    <!--
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.48')" >
+        失败</a>
+    -->
+     <button class="popup_link btn_small btn-primary2" onclick="showTestDetail('div_ft1.48')" 
+        type="button" >失败&bull;</button> 
+
+    <div id='div_ft1.48' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.48').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.48: {'retcode': 0}
+
+Traceback (most recent call last):
+  File "F:\python3.6.5\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "F:\pythonitems\ApiAutoTest\demo\other\demo_unittest3.py", line 61, in test_005
+    self.assertEqual(test['code'],dictBoby['retcode'],retreason)
+AssertionError: 2 != 0 : 
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='total_row'>
+    <td>共</td>
+    <td>48</td>
+    <td>37</td>
+    <td>11</td>
+    <td>0</td>
+    <td>&nbsp;</td>
+</tr>
+</table>
+
+<div id='ending'>&nbsp;</div>
+
+</body>
+</html>

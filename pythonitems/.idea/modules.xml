@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Appium/.idea/Appium.iml" filepath="$PROJECT_DIR$/Appium/.idea/Appium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebUIAuto/.idea/WebUIAuto.iml" filepath="$PROJECT_DIR$/WebUIAuto/.idea/WebUIAuto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/pythonitems.iml" filepath="$PROJECT_DIR$/.idea/pythonitems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/robotframework/.idea/robotframework.iml" filepath="$PROJECT_DIR$/robotframework/.idea/robotframework.iml" />
+    </modules>
+  </component>
+</project>
